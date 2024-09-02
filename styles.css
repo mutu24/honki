@@ -76,7 +76,7 @@ footer .social-media a:hover {
 }
 
 .video-container {
-    position: fixed; /* Changed to fixed for background video */
+    position: fixed; /* Fixed for background video */
     top: 0;
     left: 0;
     width: 100%;
@@ -132,3 +132,4 @@ ul, ol {
 li {
     padding: 0; /* Remove padding from list items */
 }
+
