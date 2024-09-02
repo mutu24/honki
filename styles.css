@@ -103,14 +103,14 @@ footer .social-media a:hover {
     z-index: -1; /* Place it behind the content but above the video */
 }
 
-/* Map container to keep it square */
+/* Map container to keep it square and with aspect-ratio */
 .map-container {
     position: relative;
     width: 80%; /* Adjust width to fit content */
-    max-width: 500px; /* Set a maximum width to ensure it doesn't grow too large */
+    max-width: 500px; /* Set a maximum width */
     margin: 20px auto; /* Centered with margin for spacing */
-    padding-top: 35%; /* 1:1 Aspect Ratio for square */
-    background: #ccc;
+    aspect-ratio: 1 / 1; /* Aspect ratio 1:1 for square */
+    background: #ccc; /* Background color to handle iframe load */
 }
 
 .map-container iframe {
